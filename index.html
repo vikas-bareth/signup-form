@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up | Market</title>
+    <link rel="shortcut-icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <main class="card-container slideRight-animation">
+
+        <div class="image-container">
+            <h1 class="company">Market<sup>&trade;</sup></h1>
+            <img src="./images/signUp.svg"  class="illustration" alt="signup-image-illustration" width="400px">
+            <p class="quote">Sign up today to get exciting offers..!</p>
+        </div>
+        <form class="form-section" action="">
+            <div class="form-container slideRight-animation">
+                <h1 class="form-header">Get started</h1>
+
+                <div class="input-container">
+                    <label for="f-name"></label>
+                    <input type="text" id="f-name" name="f-name" required>
+                    <span>First Name</span>
+                    <div class="error"></div>
+                </div>
+                <div class="input-container">
+                    <label for="l-name"></label>
+                    <input type="text" id="l-name" name="l-name" required>
+                    <span>Last Name</span>
+                    <div class="error"></div>
+                </div>
+                <div class="input-container">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required>
+                    <span>E-Mail</span>
+                    <div class="error"></div>
+                </div>
+                <div class="input-container">
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span>Phone</span>
+                    <div class="error"></div>
+                </div>
+                <div class="input-container">
+                    <label for="user-password"></label>
+                    <input type="password" id="user-password" name="user-password" class="user-password" required>
+                    <span>Password</span>
+                    <div class="error"></div>
+                </div>
+                <div class="input-container">
+                    <label for="user-password-confirm"></label>
+                    <input type="password" id="user-password-confirm" name="user-password-confirm" class="user-password-confirm" required>
+                    <span>Confirm Password</span>
+                    <div class="error"></div>
+                </div>
+                <div id="btm">
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    <p class="btm-text">
+                        Already have an account..? <span class="btm-text-highlighted">Log in</span>
+                    </p>
+
+                </div>
+
+            </div>
+        </form>
+   </main>
+   <section class="outro-overlay disabled slideUp-animation">
+    <h1 class="company">Market <sup>&trade;</sup></h1>
+    <h1 class="outro-greeting">Thank's for signing up..!</h1>
+    <img src="./images/shape.svg" alt="" class="shape">
+    <img src="./images/signedUp.svg" alt="" id="signedUp-illustration" class="slideRight-animation">
+    <div class="author-link">
+        &copy;&nbsp;
+        <a href="https://github.com/vikas-bareth">vikas-bareth</a> |
+        <a href="https://github.com/vikas-bareth/signup-form">Source Code</a>
+    </div>
+</section>
+    
+</body>
+</html>
